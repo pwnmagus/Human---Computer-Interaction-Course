@@ -1,0 +1,85 @@
+<!-- 
+This page helps customer to register. Customer needs to submit some personal 
+information such as name, email, password, gender, member type, and the agreement. 
+You are also asked to create 5 kind of validation using JavaScript.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Form - Register</title>
+     <link rel="stylesheet" href="core2.css">
+    
+ </head>
+ <body>
+
+   
+    <section id="forms">
+    <div class="container">
+        
+                <form method="post" name="regis" id="regis">
+                    
+                    <h1>Sign Up</h1>
+                    <br><br><br><br>
+                    <p>Please fill in this form to create an account.</p>
+                
+                    <hr>
+                    <p class="lead">Username</p>
+                    <input type="text" name="user" id="user" placeholder="Enter Your Username"></input>
+                    
+                    <br>
+                    <p class="lead">Email</p>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email"></input>
+
+                    <br>
+                    <p class="lead">Password</p>
+                    <input type="password" name="pass" id="pass" placeholder="Enter Your Password"></input>
+                    
+                    <br>
+                    <p class="lead">Confirm Password</p>
+                    <input type="password" name="confirm" id="confirm" placeholder="Confirm Your Password"></input>
+                    
+                    <br>
+                    <p class="lead">Gender</p>
+                    <input type="radio" name="sex" id="male">Male</input>
+                    <input type="radio" name="sex" id="female">Female</input>
+
+                    <br><br>
+                    <p class="lead">Member Type</p>
+                    <select name="member_type" id="member">
+                            <option value=0>-- Choose Member Type --</option>
+                            <option value=1>Standard</option>
+                            <option value=2>Premium</option>
+                    </select>
+
+                    <br><br>
+                    <small>By creating an account you agree to our Terms & Privacy.</small><br><br>
+                    <input type="radio" name="agree" id="agree">I agree </input>
+                    
+                    <br><br>
+                    <input type="button" class="submit registerbtn" value="Submit" onclick="Cek()" />
+                   <br><br>
+                    <font color="red">
+                            <strong><div name="err" id="err">&nbsp;</div></strong>
+                    </font>
+
+                </form>
+
+            
+        
+    </div>
+    </section>
+
+
+<footer>
+    <p>Copyright &copy; Shinichi Nazakato - 2019</p>
+</footer>
+
+    
+     <script src="core2.js"></script>
+    
+ </body>
+ </html>

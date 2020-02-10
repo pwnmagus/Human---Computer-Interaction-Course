@@ -1,0 +1,134 @@
+body{
+    font-family: Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: rgb(1, 241, 189);
+    padding: 10px;
+    color: white;
+}
+.container {
+    right: 0; 
+    margin: auto;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+
+#coding{
+   
+    padding: 15px;
+    font-family: Consolas;
+    color : rgb(229, 255, 0);
+   
+    
+}
+
+#coding form{
+    float: center;
+    margin-top: 26px;
+    padding: 90px;
+    background-color: grey;
+}
+
+
+
+marquee{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+pre{
+    padding: 20px;
+    float: left;
+    
+}
+
+#card{
+    display: inline-block;
+    border-top: #04fc9d 25px solid;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(233, 233, 233);
+    width: 70%;
+    overflow: auto;
+ 
+}
+
+#card img{
+    width: 850px;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#card h1{
+    color: #414141;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.button-01{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 1;
+    width: 20%;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+.button-01:hover{
+    opacity: 0.5;
+}
+.button-02{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 1;
+    width: 20%;
+    color: black;
+    background-color: rgb(0, 255, 76);
+}
+.button-02:hover{
+    opacity: 0.5;
+}
+
+.button-03{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 1;
+    width: 20%;
+    color: black;
+    background-color: rgb(255, 238, 0);
+}
+.button-03:hover{
+    opacity: 0.5;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

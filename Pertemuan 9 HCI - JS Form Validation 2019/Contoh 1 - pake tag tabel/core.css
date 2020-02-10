@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    margin:0;
+  }
+  
+  * {
+    font-family: Lexend Deca;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("../../Images/BG-SFG.png");
+  
+    /* Control the height of the image */
+    min-height: 950px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    right: 0; 
+    margin: auto;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+
+  /* NewsLetter Section */
+
+#forms {
+    padding: 15px;
+    color: #0a0a0a;
+  
+}
+
+#forms h1{
+  float: left;
+}
+
+#forms img{
+    width: 150px;
+}
+
+
+#forms form{
+  float: center;
+  margin-top: 26px;
+  padding: 90px;
+  
+}
+
+/* #forms input[type="email"],input[type=text], input[type=password]{
+  padding:4px;
+  height:25px;
+} */
+
+#forms input[type="email"], input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+/* Responsive Regist form */
+@media screen and (max-width: 800px) {
+
+  #forms h1{
+    font-size: 25px;
+    float:left;
+  }
+
+  #forms form{
+    float: center;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+
+  #forms input[type="email"], input[type=text], input[type=password] {
+    width: 90%;
+   
+  }
+
+}
+/* Template for Button color scheme */
+
+/* ini buat button tag */
+.button-01{
+  height:38px;
+  border:0;
+  background-color: rgb(91, 62, 255);
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+
+}
+.button-01:hover {
+    opacity: 0.8;
+  } 

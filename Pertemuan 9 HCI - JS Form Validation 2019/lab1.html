@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form - Lab Version</title>
+</head>
+<body>
+
+    <style>
+    *{font-family: Consolas;} span{color:red;}
+    </style>
+
+    <form action="#" method="GET" onsubmit="return formsubmit()">
+        Username <br>
+        <input type="text" name="username" id="username">
+        <br><span id="usernameError"></span>
+
+        <br><br>Email<br>
+        <input type="email" name="email" id="email">
+        <br><span id="emailError"></span>
+
+        <br><br>Password<br>
+        <input type="password" name="password" id="password">
+        <br><span id="passwordError"></span>
+
+        <br><br>Umur<br>
+        <input type="number" name="umur" id="umur" min="0" max="100">
+
+        <br><br>Birthday<br>
+        <input type="date" name="ultah" id="ultah">
+
+        <br><br>
+       
+
+        Gender<br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br><br>
+
+        Your Occupation : <br>
+        <select name="job" id="job">
+            <option value="dev">Developer</option>
+            <option value="lec">Lecturer</option>
+            <option value="ill">Illustrator</option>
+            <option value="jon">Journalist</option>
+        </select>
+        
+      
+        
+        <br><br>
+        <label for="agree">Agree to Terms & Condition</label>
+        <input type="checkbox" name="agree" id="agree">
+
+        <br><br>
+        <!-- Submit Form -->
+        <input type="submit" value="submit">
+    </form>
+     
+    <script src="lab1.js"></script>
+</body>
+</html>

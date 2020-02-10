@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meeting 8 HCI Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center><h1>JavaScript</h1>
+
+    <p id="paragraph" onmouseover="mouseover()" onmouseout="mouseout()">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deleniti reprehenderit architecto exercitationem aspernatur quasi sapiente officia? Error distinctio, repudiandae rerum unde provident ipsam iure beatae minima deleniti, quidem iste?
+    </p>
+    <input type="text" name="" id="text">
+    <input type="date" name="" id="date" onchange="datefunc(this.value)">
+    <input type="submit" name="" id="submit" onclick="clickme()">
+    <p id="output"></p>
+    </center>
+    <!-- DOM JS -->
+    <script>
+        function mouseover(){
+            //ubah stylenya paragraph
+            document.getElementById("paragraph").style.backgroundColor ="red"
+            document.getElementById("paragraph").style.fontFamily ="Comfortaa"
+        }
+        function mouseout(){
+            //ubah stylenya paragraph
+            document.getElementById("paragraph").style.backgroundColor ="white"
+            document.getElementById("paragraph").style.fontFamily ="Graduate"
+        }
+        function clickme(){
+            document.getElementById("output").innerHTML = "Udah lu klik gan" + "<br>" + "UDAH BENER WOI"
+            document.getElementById("text").value = "Udah lu klik gan" + "<br>" + "UDAH BENER WOI"
+        }
+        function datefunc(value){
+            let selectedDate = new Date(value)
+            //get current date and time
+            let currDate = new Date()
+
+            if(selectedDate.getTime() < currDate.getTime()){
+                console.log("Yesterday")
+            }
+            else{
+                console.log("Today and tommorow and more ...")
+            }
+        
+        }
+        
+    </script>
+
+    <script src="core.js"></script>
+</body>
+</html>

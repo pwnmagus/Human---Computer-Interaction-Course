@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+
+<style>
+*{font-family: 'Open Sans';}
+
+.box{
+    width:30px;
+    height: 30px;
+    margin: 20px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider, .slides>img{
+    height:300px;
+    width:300px;
+
+}
+
+.slider-container{
+    width: max-content;  /*ikutin kontennya brp widthnya.*/
+    position: relative;
+
+}
+
+.slider{
+    overflow: hidden;
+    
+}
+
+
+
+</style>
+
+<!-- Start of body -->
+<body>
+    
+<div class="box"></div>
+<div class="buttonStart"><button>Start Animate</button></div>
+
+<div class="container">
+<div class="slider">
+    <div class="slider-container">
+        <div class="slides">
+            <img src="images/dog1.png" alt="">
+            <img src="images/dog2.png" alt="">
+            <img src="images/dog3.png" alt="">
+            <img src="images/dog4.png" alt="">
+            <img src="images/dog5.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="jqueryconf.js"></script>
+</body>
+</html>

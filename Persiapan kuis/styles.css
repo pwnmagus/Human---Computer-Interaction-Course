@@ -1,0 +1,194 @@
+/* 
+CSS for Fortnites 
+
+Re-Configuration of old CSS from Kelas Tambahan HCI
+This is the fixed Cheatsheet I used to create this web pages.
+
+(c) Shinichi Nazakato - 2019
+
+*/
+
+
+/* HOME SECTION */
+
+/* Font type Setup */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/* Header Setup */
+header{
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+}
+
+header img{
+    height: 50px;
+}
+
+/* Nav Setup */
+nav{
+    display: flex;
+    background-color: indigo; 
+}
+
+/* Nav <a> tag Setup */
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* If the navbar is hovered, give some responsiveness */
+nav a:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 10%;
+    box-sizing: border-box;
+}
+
+/* Promotion Class Base*/
+.promotion {
+    background: url('Assets/headbackground.jpg') no-repeat;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: contain;
+}
+
+/* If image in Class promotion is hovered, switch to next picture of the promotion photo */
+.promotion:hover{
+    background: url('Assets/Marisa\ Kirisame\ Cyberpunk.jpg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.promotions{
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Showcase of the main content */
+.showcase{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.showcase img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+/* To make Texxt Bigger in <p> tag */
+.lead{
+    font-size: 25px;
+}
+
+/* Create Style for Redirecting Button with <a> tag */
+.tombol{
+    background-color: purple;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.tombol:hover{
+    opacity:0.7;
+}
+
+/* Panel Class to serve as panel for download button in home */
+.panel{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Setup for the Footer */
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    height: 100%;
+    font-size: 25px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer img{
+    height: 100%;
+   
+    
+}
+
+/* FORM SECTION */
+/* Container */
+.container-form{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 10%;
+    box-sizing: border-box;
+}
+
+form{
+    color: white;
+    float: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.submit{
+    background-color: indigo;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+.submit:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+

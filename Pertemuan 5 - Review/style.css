@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: beige;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+}
+.header{
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* '.' untuk style 'class', '#' untuk style 'id' */
+.div-utama{
+    background-color: aquamarine;
+}
+
+.navbar >ul >a{
+    float: left;
+    width: 50%;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:25px;
+}
+
+/* .navbar >ul >a:hover{
+    background-color: burlywood;
+} */
+
+.navbar >ul >.navbar-home:hover{
+    background-color:bisque;
+    cursor:pointer; 
+    color: black;
+}
+
+.navbar{
+    background-color: chocolate;
+    height: 4.5vh; 
+    
+    /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+
+    border-radius:15px;
+
+}
+
+/* Contents */
+
+.content{
+    border:solid 3px;
+    border-radius: 5px;
+    margin: 5% 0;
+    text-align: justify;
+    /* padding:30px; */
+}
+
+.each-content{
+    margin: 2%;
+    /* Display menyamping pake flex */
+    display: flex;
+}
+.each-content >p{
+    margin: 6% 5%;
+
+}
+
+.image-content{
+    background: url('./Assets/cake1.jpg') no-repeat; 
+    background-size: 100%;
+    background-position: center;
+    width:100%;
+    height:200px;
+}
+
+.input-field{
+    display: flex;
+    margin: 5% ;
+    justify-content: space-between;
+}
+.input-field  >p{
+    margin:0;
+}
+/* input[type="submit"] */
+.input-field>input{
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.input-field>input[type="submit"]{
+  margin:0 auto;
+}
